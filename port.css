@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://media.istockphoto.com/photos/portrait-of-a-happy-asian-businesswoman-picture-id1303501167?b=1&k=20&m=1303501167&s=170667a&w=0&h=DK8ceOcn2hfAdq9wz9brnaDMPH-jox1afc-YjoCLO-g=);
+    background-size: cover;
+    background-position: inherit;
+    background-repeat: no-repeat;
+
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: static;
+
+
+}
+
+
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 35px;
+    position: relative;
+    cursor: pointer;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(14, 14, 13);
+    text-transform: capitalize;
+    margin-top: 0%;
+    background-color: rgb(236, 189, 69);
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.body{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: justify;
+    margin-left: 15%;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 35px;
+    position: relative;
+    cursor: pointer;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(11, 32, 151);
+    text-transform: capitalize;
+    margin-top: 0%;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.navbar ul li :focus {
+    border: 2px;
+    cursor: pointer;
+
+}
+   
+.body{
+    font-size: 20px;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    font-weight: 100;
+    line-height: 25px;
+    color: navy;
+}
+
+ button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 100px;
+    font-weight: bold;
+    border: 5px solid rgb(12, 12, 11);
+    background: transparent;
+    color: rgb(60, 60, 169);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+} 
+
+button:hover {
+    border: 1px;
+    background-color: rgb(105, 168, 241);
+}
+
+footer {
+    align-items: center;
+    background-color: navy;
+    color: rgb(239, 239, 245);
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 150;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-top:0 ;
+    
+}

@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(247, 242, 242);
+}
+
+.love1{
+    font-weight: 100;
+    font-size: 30px;
+    text-align: center;
+    color: navy;
+    text-decoration: solid;
+    padding: 5px;
+}
+
+.love2 ul li{
+    text-align: justify;
+    margin-left: 25%;
+    color: navy;
+    font-weight: 200;
+    text-decoration: solid;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    margin-bottom:3%;
+    font-size: larger;
+}
+
+.love2 ul{
+    margin-top: 5%;
+
+}
+
+
+.love3 {
+    text-align: center;
+    margin-left: 25%; 
+}

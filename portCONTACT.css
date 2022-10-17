@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.love1{
+    text-align: center;
+
+    
+}
+
+.love2{
+    font-weight: 100;
+    font-size: 30px;
+    text-align: center;
+    color: navy;
+    text-decoration: solid;
+    padding: 5px;
+}
+
+.love3{
+    text-align: center;
+    margin-left: 20%;
+    color: navy;
+    font-weight: 200;
+    text-decoration: solid;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    margin-bottom: 2%;
+    font-size: larger;
+    margin-right: 18%;
+}
